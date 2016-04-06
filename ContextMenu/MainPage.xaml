@@ -1,0 +1,148 @@
+﻿<phone:PhoneApplicationPage x:Class="ContextMenu.MainPage"
+                            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                            xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+                            xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+                            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                            xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+                            mc:Ignorable="d"
+                            FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                            FontSize="{StaticResource PhoneFontSizeNormal}"
+                            Foreground="{StaticResource PhoneForegroundBrush}"
+                            SupportedOrientations="Portrait"
+                            Orientation="Portrait"
+                            shell:SystemTray.IsVisible="True">
+
+
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0"
+              Background="#002080">
+            <TextBlock  Text="PAGE HEADER"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center" />
+        </Grid>
+
+        <StackPanel Grid.Row="1" Background="Red">     
+            
+            <Border Background="White"
+                    Margin="20 10">
+                <TextBlock Text="hold on item to show context menu"
+                           HorizontalAlignment="Center"
+                           Foreground="Black"
+                           Padding="0 5" />
+                <toolkit:ContextMenuService.ContextMenu>
+                    <toolkit:ContextMenu IsZoomEnabled="False"
+                                         Opened="ContextMenu_opened"
+                                         Closed="ContextMenu_closed">
+                        <toolkit:MenuItem Header="edit"
+                                          Click="ContextMenuItemChat_Click" />
+                        <toolkit:MenuItem Header="delete"
+                                          Click="ContextMenuItemChat_Click" />
+                        <toolkit:MenuItem Header="copy"
+                                          Click="ContextMenuItemChat_Click" />
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>
+
+            </Border>
+            
+            <Border Background="White"
+                    Margin="20 10">
+                <TextBlock Text="hold on text to show context menu"
+                           HorizontalAlignment="Center"
+                           Foreground="Black"
+                           Padding="0 5">     
+                    
+                    <toolkit:ContextMenuService.ContextMenu>
+                    <toolkit:ContextMenu IsZoomEnabled="False"
+                                         Opened="ContextMenu_opened"
+                                         Closed="ContextMenu_closed">
+                        <toolkit:MenuItem Header="edit"
+                                          Click="ContextMenuItemChat_Click" />     
+                        <toolkit:MenuItem Header="delete"
+                                          Click="ContextMenuItemChat_Click" />
+                        <toolkit:MenuItem Header="copy"
+                                          Click="ContextMenuItemChat_Click" />
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>
+
+                </TextBlock>
+            </Border>
+
+            <Border Background="White"
+                        Hold="OpnenContextMenu_OnHold">
+                <TextBlock Text="open from C#"
+                           HorizontalAlignment="Center"
+                           Foreground="Black"
+                           Padding="0 5" />
+            </Border>
+
+            <Button Background="White"
+                    Foreground="Black"
+                    Margin="10 10"
+                    Content="Click to show context menu">
+
+                <toolkit:GestureService.GestureListener>
+                    <toolkit:GestureListener Tap="ShowContextMenu_OnTap" />
+                </toolkit:GestureService.GestureListener>
+                <toolkit:ContextMenuService.ContextMenu>
+                    <toolkit:ContextMenu IsZoomEnabled="False"
+                                         Opened="ContextMenu_opened"
+                                         Closed="ContextMenu_closed">
+                        <toolkit:MenuItem Header="edit"
+                                          FontFamily="{StaticResource PhoneFontFamilySemiLight}"
+                                          Click="ContextMenuItemChat_Click" />
+                        <toolkit:MenuItem Header="delete"
+                                          FontFamily="{StaticResource PhoneFontFamilySemiLight}"
+                                          Click="ContextMenuItemChat_Click" />
+                        <toolkit:MenuItem Header="copy"
+                                          FontFamily="{StaticResource PhoneFontFamilySemiLight}"
+                                          Click="ContextMenuItemChat_Click" />
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>
+            </Button>
+
+            <Button Background="White"
+                    Foreground="Black"
+                    Margin="10 10"
+                    Content="theme indiffendent">
+
+                <toolkit:GestureService.GestureListener>
+                    <toolkit:GestureListener Tap="ShowContextMenu_OnTap" />
+                </toolkit:GestureService.GestureListener>
+                <toolkit:ContextMenuService.ContextMenu>
+                    <toolkit:ContextMenu IsZoomEnabled="False"
+                                         BorderThickness="0"
+                                         Background="White"
+                                         BorderBrush="Transparent"
+                                         Opened="ContextMenu_opened"
+                                         Closed="ContextMenu_closed">
+                        <toolkit:MenuItem Header="edit"
+                                          Foreground="Black"
+                                          FontFamily="{StaticResource PhoneFontFamilySemiLight}"
+                                          Click="ContextMenuItemChat_Click" />
+                        <toolkit:MenuItem Header="delete"
+                                          Foreground="Black"
+                                          FontFamily="{StaticResource PhoneFontFamilySemiLight}"
+                                          Click="ContextMenuItemChat_Click" />
+                        <toolkit:MenuItem Header="copy"
+                                          Foreground="Black"
+                                          FontFamily="{StaticResource PhoneFontFamilySemiLight}"
+                                          Click="ContextMenuItemChat_Click" />
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>
+            </Button>
+            
+            
+
+        </StackPanel>
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

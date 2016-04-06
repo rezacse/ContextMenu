@@ -1,0 +1,29 @@
+﻿<xapCache source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Bin\Debug\ContextMenu_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="06-04-2016 4.09.17 PM">
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="06-04-2016 1.29.45 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\obj\Debug\ContextMenu.dll" archivePath="ContextMenu.dll" lastWriteTime="06-04-2016 4.09.16 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\SquareTile150x150.png" archivePath="Assets\SquareTile150x150.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\SquareTile71x71.png" archivePath="Assets\SquareTile71x71.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\StoreLogo.png" archivePath="Assets\StoreLogo.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="06-04-2016 12.49.25 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="06-04-2016 12.49.25 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="06-04-2016 12.49.25 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="06-04-2016 12.49.25 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="06-04-2016 12.49.25 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="06-04-2016 12.49.25 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="06-04-2016 1.20.30 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="06-04-2016 12.31.20 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="06-04-2016 12.49.25 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="06-04-2016 1.20.30 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="06-04-2016 4.09.17 PM" />
+  <file source="D:\DevResources\Sample Project\git\ContextMenu\ContextMenu\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="06-04-2016 1.29.46 PM" />
+</xapCache>
